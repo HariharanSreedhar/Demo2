@@ -1,7 +1,7 @@
 name: Run Unit Test
 env:
     # Replace with your solution location
-    solution_file_location: ./Calculator_Demo/Calculator_Demo.sln
+    solution_file_location: ./Demo1/Demo1.sln
     # Replace with the desired .NET Core version
     dotnetVersion : 7.0.x  
     isFileExist :  false
