@@ -34,7 +34,7 @@ jobs:
           # The starting directory for iteration
           starting_directory="src"
           
-          # Function to find all the .sln files in the directory
+          # Function to find all the .sln files in src directory
           find_sln_files_to_build() {
             for file in "$1"/*; do
                   if [ -d "$file" ]; then
@@ -58,12 +58,12 @@ jobs:
         shell: bash 
           
           
-      - name: Run unit tests inside "UnitTest" directory
+      - name: Run unit tests inside "Tests" directory
         run: |
           # The starting directory for iteration
           starting_directory="Tests"
           
-          # Function to find .sln files
+          # Function to find .sln files inside tests folder
           find_sln_files() {
             for file in "$1"/*; do
               if [ -d "$file" ]; then
@@ -72,6 +72,8 @@ jobs:
                 isTestFileExist=true
                 echo -e "\n\nFound .sln file: $file"
                 echo "Running unit test file $file"
+                dotnet restore "$file"
+                dotnet build --configuration Release "$file"
                 dotnet test "$file"                
               fi
             done
