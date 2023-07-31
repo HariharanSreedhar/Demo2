@@ -29,7 +29,7 @@ jobs:
           # Replace with the desired .NET Core version
           dotnet-version: "7.0.x"       
               
-      - name: Build all solutions
+      - name: Build solutions inside "src" directory
         run: |
           # The starting directory for iteration
           starting_directory="src"
@@ -58,7 +58,7 @@ jobs:
         shell: bash 
           
           
-      - name: Run unit tests inside "Tests" directory
+      - name: Build and run unit tests inside "Tests" directory
         run: |
           # The starting directory for iteration
           starting_directory="Tests"
