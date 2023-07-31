@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ulrDy8+M5VhbevEhi171+dnfvEB0262UeEMwUUqoU/nmyzjYsVuK2AQMfNucQ16LbPhBodUeBMRZgFHK+m+IPw==",
+  "dgSpecHash": "/PUhd97nzjEgL95X0pZlZkDR2Sd6RjyjqRDImWDEiWXxfFZ2a8ulHljcgP4QNaMiwK4Q6Dr6m75idoybwFGwRQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\UnitTest\\Demo1Test_2\\Demo1Test_2\\Demo1Test_2.csproj",
+  "projectFilePath": "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\Tests\\UnitTest\\Demo1Test_2\\Demo1Test_2\\Demo1Test_2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hariharan.sreedhar\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\hariharan.sreedhar\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

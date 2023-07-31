@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\UnitTest\\Demo1.Test\\Demo1.Test\\Demo1.Test.csproj": {}
+    "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\Tests\\UnitTest\\Demo1.Test\\Demo1.Test\\Demo1.Test.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\UnitTest\\Demo1.Test\\Demo1.Test\\Demo1.Test.csproj": {
+    "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\Tests\\UnitTest\\Demo1.Test\\Demo1.Test\\Demo1.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\UnitTest\\Demo1.Test\\Demo1.Test\\Demo1.Test.csproj",
+        "projectUniqueName": "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\Tests\\UnitTest\\Demo1.Test\\Demo1.Test\\Demo1.Test.csproj",
         "projectName": "Demo1.Test",
-        "projectPath": "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\UnitTest\\Demo1.Test\\Demo1.Test\\Demo1.Test.csproj",
+        "projectPath": "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\Tests\\UnitTest\\Demo1.Test\\Demo1.Test\\Demo1.Test.csproj",
         "packagesPath": "C:\\Users\\hariharan.sreedhar\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\UnitTest\\Demo1.Test\\Demo1.Test\\obj\\",
+        "outputPath": "C:\\Projects\\Starter Repo\\test\\GitLocal1\\Demo2\\Tests\\UnitTest\\Demo1.Test\\Demo1.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
