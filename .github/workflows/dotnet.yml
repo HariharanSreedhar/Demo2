@@ -32,7 +32,7 @@ jobs:
       - name: Build all solutions
         run: |
           # The starting directory for iteration
-          starting_directory="scr"
+          starting_directory="src"
           
           # Function to find all the .sln files in the directory
           find_sln_files_to_build() {
